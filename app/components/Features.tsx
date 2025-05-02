@@ -14,7 +14,7 @@ export default function Features() {
     {
       command: '/remindme',
       title: 'Reminders',
-      description: 'set reminders',
+      description: 'set reminders for future dates',
     },
     {
       command: '/vote',
@@ -24,12 +24,13 @@ export default function Features() {
     {
       command: '/math',
       title: 'Calculator',
-      description: 'calculator',
+      description: "LLMs can do math, but cost tokens. this one's free",
     },
     {
       command: '/chill',
       title: 'Moderation',
-      description: 'ask another user to chill out (moderate)',
+      description:
+        'ask another user to chill out. moderate them with a rate-limit',
     },
     {
       command: '/tempban',
