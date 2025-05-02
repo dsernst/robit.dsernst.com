@@ -31,6 +31,11 @@ export default function Features() {
       title: 'Moderation',
       description: 'ask another user to chill out (moderate)',
     },
+    {
+      command: '/tempban',
+      title: 'Temporary Ban',
+      description: 'kick someone, with auto-invite back after X',
+    },
   ]
 
   return (
