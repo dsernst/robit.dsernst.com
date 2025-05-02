@@ -48,7 +48,7 @@ export default function Features() {
         {features.map((feature) => (
           <div
             key={feature.command}
-            className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-all duration-200"
+            className="bg-white/5 backdrop-blur-sm border border-black/10 dark:border-white/10 rounded-xl p-6 hover:dark:bg-white/10 hover:bg-gray-600/5 transition-all duration-200"
           >
             <div className="flex items-center gap-2 mb-2">
               <span className="text-lg font-mono text-blue-400">
@@ -56,7 +56,9 @@ export default function Features() {
               </span>
               <span className="text-lg font-semibold">{feature.title}</span>
             </div>
-            <p className="text-sm text-gray-300">{feature.description}</p>
+            <p className="text-sm dark:text-gray-300 text-gray-600">
+              {feature.description}
+            </p>
           </div>
         ))}
       </div>
