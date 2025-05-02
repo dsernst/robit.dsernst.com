@@ -41,7 +41,7 @@ export default function Features() {
   return (
     <div className="w-full max-w-4xl px-4">
       <h2 className="text-3xl font-semibold text-center mb-8">
-        Possible Features, which are your favorite?
+        Possible Features, which are your favorites?
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {features.map((feature) => (
