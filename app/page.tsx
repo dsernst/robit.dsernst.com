@@ -6,7 +6,7 @@ export default function Home() {
       <div className="text-center">
         <h1 className="text-6xl font-bold mb-4">Robit</h1>
         <p className="text-2xl">
-          Programmable Pal for <span className="inline-block">💬</span> Signal
+          Programmable buddy for <span className="inline-block">💬</span> Signal
           Messenger
         </p>
       </div>
